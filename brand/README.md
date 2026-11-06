@@ -23,7 +23,7 @@
 
 Use the exact public contact details below in website headers, footers, enquiry cards, and social profiles:
 
-`info@balajipropertiesjaipur.com`  ·  `+91 11699 0932`
+`info@balajipropertiesjaipur.com`  ·  `+91 9116990932`
 
 ## Files
 
