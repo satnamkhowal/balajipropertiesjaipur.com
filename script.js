@@ -29,3 +29,8 @@ if (menuButton && nav) {
     if (window.innerWidth > 760) closeMenu();
   });
 }
+
+const printChecklistButton = document.querySelector('.print-checklist');
+printChecklistButton?.addEventListener('click', () => {
+  window.print();
+});
