@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F1E8"/>
+  <circle cx="1020" cy="80" r="220" fill="#E7B65A" opacity=".2"/>
+  <path d="M0 560h1200" stroke="#E7B65A" stroke-width="10"/>
+  <g transform="translate(92 120)"><use href="mark.svg#x"/></g>
+  <text x="100" y="190" fill="#22205D" font-family="Georgia, serif" font-size="64" font-weight="700">BALAJI</text>
+  <text x="104" y="245" fill="#E76F3C" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="7">PROPERTIES</text>
+  <text x="104" y="292" fill="#6B6C7A" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">JAIPUR · REAL ESTATE</text>
+  <text x="104" y="420" fill="#22205D" font-family="Arial, sans-serif" font-size="28">Your trusted gateway to better living.</text>
+  <text x="104" y="485" fill="#6B6C7A" font-family="Arial, sans-serif" font-size="22">info@balajipropertiesjaipur.com  ·  +91 11699 0932</text>
+</svg>
