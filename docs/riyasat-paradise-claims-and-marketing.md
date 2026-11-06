@@ -13,20 +13,20 @@ Main project: Riyasat Paradise, Village Vatika, Jaipur
 | Developer: Riyasat Infra Developers Pvt. Ltd. | Verified | Developer page / RERA-indexed records | Publish |
 | Project area: 100,000 sq m | Developer-reported | Developer page | Publish as reported, not a specific plot size |
 | Registration date: 09 May 2025 | Registry-indexed | Rajasthan RERA listing mirrored at reale.in | Publish with registry check |
-| RERA-listed estimated completion: 31 Jul 2028 | Registry-indexed | RERA promoter portfolio listing / mirror | Publish as an estimated or RERA-listed date, never a possession guarantee |
+| RERA listing: status COMPLETED; dates 31 Jul 2028 and 27 Oct 2025 | Official promoter-listing data, field meaning requires confirmation | Rajasthan RERA public listing | Quote status and dates accurately; never claim plot handover without the certificate |
 | Amenities: parks, play zones, cricket ground, tennis court, temple, pergola, gathering palace | Developer-listed | Developer project page | Present as planned/developer-listed, not delivered |
 | Ring Road 4.5km; Tonk Road 8km; Chokhi Dhani 8.5km; Vatika Stadium 800m | Developer-listed distances | Developer project page | Use with "approximate, developer-listed"; independently check routes |
 | JDA approvals | Developer claims approval | Developer page | Do NOT claim independently verified; request the applicable approved layout/records |
 | Plot-specific size, number, current availability | Unverified | Written inventory needed | Never invent |
 | Plot price, discount, ROI or rental return | Unverified | Written quotation needed | Never invent |
-| Physical completion, handover, possession readiness | Requires on-site and official verification | Official RERA and site visit | Do not infer from inconsistent status fields |
+| Physical completion, handover, possession readiness | Requires plot-specific / official verification | RERA certificates, approved plan and site visit | Do not infer from status text alone |
 
 **Source URLs**
 - Project developer: https://www.riyasatinfra.com/projects/jaipur/ongoing/riyasat-paradise
 - Rajasthan RERA: https://rera.rajasthan.gov.in/
 - RERA-indexed summary (secondary, not the regulator): https://reale.in/rajasthan/p/riyasat-paradise-raj-p-2025-3745
 
-**RERA status discrepancy:** Some public RERA promoter-listing data says "COMPLETED" while the RERA-indexed project summary labels registration as "Application Approved" and gives an estimated completion date of 31 Jul 2028. Do not infer actual construction, possession, certification or amenity completion from these labels alone. Ask for the latest certificate, approved project layout, quarterly updates and site inspection. Also do not conflate this registration with Riyasat Paradise Extension, Block-A or Riyasat Paradise II, which have distinct registration numbers.
+**Official RERA public listing (checked 2026-11-06):** The Rajasthan RERA promoter listing for RAJ/P/2025/3745 shows registration on 09 May 2025, project status `COMPLETED`, and displays both 31 Jul 2028 and 27 Oct 2025 in completion-related columns. These dates may denote originally declared vs later recorded milestones and should not be described as a logical contradiction without the official column labels and supporting completion certificate. This **does not independently verify plot-specific handover, readiness, title, all amenities or authorised sale**. Ask for the latest project certificate, approved plan, progress records and site inspection. Do not mix this project with Riyasat Paradise Extension (RAJ/P/2025/4542), Extension Block-A (RAJ/P/2025/4543), or Riyasat Paradise II (RAJ/P/2026/5205). Official listing: https://rera.rajasthan.gov.in/ViewProject?id=MswDZueBrRk%3D&type=U
 
 ## Enquiry and business information
 - Brand: Balaji Properties Jaipur
@@ -83,6 +83,7 @@ Exploring residential plots in Vatika, Jaipur? Learn about Riyasat Paradise, rev
 Primary pages:
 - `/` — brand homepage + featured project
 - `/riyasat-paradise.html` — dedicated high-intent project enquiry page
+- `/vatika-plot-buying-checklist.html` — original 9-step document and site visit verification checklist
 
 Potential future articles, subject to documented facts and usefulness:
 1. Riyasat Paradise Vatika Jaipur: Documents to check before booking a plot
@@ -109,3 +110,10 @@ Do not mass-publish near-duplicate locality pages. Obtain real project photograp
 - Linked homepage to the project page; fixed mobile menu ARIA state and close behavior.
 - Drafted non-misleading educational social and paid ad messages.
 - Pending CI and preview checks; production release requires review.
+
+
+## Phase 3 — 2026-11-06
+- Added a practical, original nine-step buyer checklist for plotted property in Vatika, Jaipur. Print-only client-side checkboxes do not submit personal data.
+- Corrected project page wording: the official RERA promoter listing shows the project as COMPLETED and gives both 31 July 2028 and 27 October 2025, but the underlying completion certificate and field semantics are still to be checked.
+- Domain checks for `balajipropertiesjaipur.com` (apex, www and project path) were inaccessible via public web retrieval. Container DNS is also unavailable for unrelated domains (e.g. GitHub), so this does not establish a website outage or a DNS misconfiguration.
+- Hosting/DNS, live browser/mobile QA, indexed canonical, published prices, image rights and direct regulator certificate validation remain **open**, not completed.
