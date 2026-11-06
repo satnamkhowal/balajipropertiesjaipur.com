@@ -117,3 +117,28 @@ Do not mass-publish near-duplicate locality pages. Obtain real project photograp
 - Corrected project page wording: the official RERA promoter listing shows the project as COMPLETED and gives both 31 July 2028 and 27 October 2025, but the underlying completion certificate and field semantics are still to be checked.
 - Domain checks for `balajipropertiesjaipur.com` (apex, www and project path) were inaccessible via public web retrieval. Container DNS is also unavailable for unrelated domains (e.g. GitHub), so this does not establish a website outage or a DNS misconfiguration.
 - Hosting/DNS, live browser/mobile QA, indexed canonical, published prices, image rights and direct regulator certificate validation remain **open**, not completed.
+
+
+## Phase 4 — Maps and conversion UX (2026-11-06)
+### Developer-hosted project layout reference links
+The developer page shows two separate document links, each held on the developer's CDN:
+- **JDA-labelled map:** https://cdn.prod.website-files.com/67b6bb5106e0b321737746fb/6a5f45e9bf8fd909b0d29919_JDA%20MAP%20PARADISE%20_compressed.pdf
+- **Marketing map:** https://cdn.prod.website-files.com/67b6bb5106e0b321737746fb/6a5f45e9afea2fc4700a9566_RIYASAT%20PARADISE_MARKETING%20MAP_Final-compressed.pdf
+- **Source page:** https://www.riyasatinfra.com/projects/jaipur/ongoing/riyasat-paradise
+
+These document links were extracted from the developer page on 2026-11-06. The PDF content could not be independently inspected in this browsing environment. **Neither file is represented as an independently verified current sanctioned layout**. Before providing plot-specific approval advice, review the actual relevant JDA/competent-authority sanction and RERA record. Linking does not mean the developer grants us permission to copy and rehost its PDFs.
+
+### Quick enquiry flow
+The dedicated project page provides an optional, client-side form for choosing the requested follow-up (site visit, inventory and written quotation, RERA/plan documents, or callback) and adding a 240-character question. The JavaScript builds a WhatsApp draft to +91 9116990932. No backend, cookies, browser storage or in-site customer database were introduced. Message text is passed to WhatsApp when clicked, and is sent to Balaji Properties **only when the visitor submits it in WhatsApp**. Existing call and standard WhatsApp links remain available.
+
+### Domain & release status
+- Apex, `www`, and direct project URLs remained inaccessible to the public web fetching tool on 2026-11-06; this alone is not proof of an outage.
+- The repository root has static HTML/CSS/JS and no deployment manifest or workflow was found in the root; this does **not** establish the actual hosting configuration.
+- Pending: verify DNS and host with an independently working browser, direct RERA certificate and planning-authority records, and live mobile UX at multiple viewports.
+- Do **not** create canonical URLs, sitemaps, location promises, numeric plot prices or publish ads based solely on inaccessible live deployment.
+
+### Future acceptance criteria
+- [ ] Real browser: no horizontal overflow at 360/390/768px; forms and links are keyboard operable.
+- [ ] Form draft reflects the selected request and optional note, reaches the correct WhatsApp number, and does not automatically send a message.
+- [ ] Developer-hosted PDF links resolve; contents must be compared against official approved layouts.
+- [ ] CI/browser preview passes before treating the branch as production-ready.

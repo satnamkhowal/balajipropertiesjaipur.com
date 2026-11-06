@@ -34,3 +34,29 @@ const printChecklistButton = document.querySelector('.print-checklist');
 printChecklistButton?.addEventListener('click', () => {
   window.print();
 });
+
+// Prepare a project enquiry locally; the visitor chooses whether to send it in WhatsApp.
+const projectEnquiryForm = document.querySelector('#project-enquiry-form');
+projectEnquiryForm?.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const requestType = projectEnquiryForm.querySelector('#enquiry-purpose')?.value;
+  const notes = (projectEnquiryForm.querySelector('#enquiry-note')?.value || '')
+    .trim().replace(/\s+/g, ' ').slice(0, 240);
+  const requests = {
+    'site-visit': 'Please help me schedule a site visit.',
+    inventory: 'Please share the current plot inventory and a written price sheet.',
+    documents: 'Please share RERA documentation and the applicable approved-layout reference.',
+    'call-back': 'Please contact me to discuss the project.'
+  };
+  const selectedRequest = requests[requestType] || requests['site-visit'];
+  const message = [
+    'Namaste Balaji Properties Jaipur,',
+    'I am enquiring about Riyasat Paradise, Village Vatika, Jaipur (RERA RAJ/P/2025/3745).',
+    selectedRequest,
+    notes ? 'Additional question: ' + notes : '',
+    'Please help me verify the latest project details before booking.'
+  ].filter(Boolean).join('\n');
+
+  window.location.assign('https://wa.me/919116990932?text=' + encodeURIComponent(message));
+});
