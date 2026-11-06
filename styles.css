@@ -116,3 +116,22 @@ button,a,summary{-webkit-tap-highlight-color:transparent}
 @media(max-width:960px){.buyer-check-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.buyer-hero{padding:63px 7vw}.buyer-check-grid{grid-template-columns:1fr}.buyer-hero .rp-actions{align-items:stretch}.buyer-hero .rp-actions .button{width:100%}.buyer-question-list li{font-size:15px}.buyer-note{padding:22px}}
 @media print{.site-header,.rp-mobile-cta,.buyer-hero .rp-actions,.rp-enquire,footer{display:none!important}body:has(.rp-mobile-cta){padding:0}.buyer-hero,.rp-section{padding:12px 0!important}.buyer-hero h1,.rp-section h2{font-size:28px}.buyer-check-grid{display:block}.buyer-check{break-inside:avoid;page-break-inside:avoid;margin:6px 0;padding:9px 14px;background:white;border:1px solid #ccc}.buyer-check p{margin:6px 0;font-size:11px}.buyer-note{background:white}.rp-section-muted{background:white}a{text-decoration:none!important}}
+
+/* Project document references and private, client-side WhatsApp enquiry */
+.rp-document-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.rp-document-grid article{padding:30px;background:#fffaf3;border:1px solid #dfd6ca;display:flex;flex-direction:column;align-items:flex-start}
+.rp-document-tag{font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#9b543a}
+.rp-document-grid h3{font-family:'Playfair Display',serif;color:var(--navy);font-size:29px;font-weight:500;margin:16px 0}
+.rp-document-grid p{font-size:14px;line-height:1.75;color:#545b67;margin:0 0 20px}
+.rp-document-grid a{font-size:13px;font-weight:700;color:#943f2e;text-decoration:underline;text-underline-offset:3px;margin-top:auto}
+.rp-enquiry-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8vw}
+.rp-enquiry-help{color:#545b67;line-height:1.8;font-size:16px}
+.rp-interest-form{padding:30px;background:#fffaf3;border:1px solid var(--line);display:flex;flex-direction:column;gap:12px;min-width:0}
+.rp-interest-form label{font-size:13px;font-weight:700;color:var(--navy)}
+.rp-interest-form label span{font-weight:400;color:#5b5d6a}
+.rp-interest-form select,.rp-interest-form textarea{width:100%;min-width:0;min-height:48px;border:1px solid #9899a0;border-radius:7px;padding:12px 14px;background:#fff;color:var(--ink);font:inherit;font-size:14px;line-height:1.5}
+.rp-interest-form textarea{resize:vertical}
+.rp-interest-form button{border:0;cursor:pointer;min-height:48px;width:100%;margin-top:4px}
+.rp-interest-form p{color:#555b67;font-size:11px;line-height:1.7;margin:0}
+@media(max-width:760px){.rp-document-grid,.rp-enquiry-grid{grid-template-columns:1fr}.rp-interest-form{padding:22px}.rp-document-grid article{padding:24px}}
+@media print{.rp-interest-form{display:none}.rp-document-grid{grid-template-columns:1fr 1fr}.rp-document-grid article{break-inside:avoid}}
